@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '367ec63a-127c-453a-8fbe-06a1158e2107';
 let proxyIP ="vip.worsen.eu.org";
 
-let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
+let dohURL = 'https://re.worsen.eu.org'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables
 let nodeId = ''; // 1
@@ -99,7 +99,7 @@ export default {
                     default:
                         // return new Response('Not found', { status: 404 });
                         // For any other path, reverse proxy to 'maimai.sega.jp' and return the original response
-                        url.hostname = 'maimai.sega.jp';
+                        url.hostname = 'shaparak.ir';
                         url.protocol = 'https:';
                         request = new Request(url, request);
                         return await fetch(request);
