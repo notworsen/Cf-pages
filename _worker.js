@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '367ec63a-127c-453a-8fbe-06a1158e2107';
 let proxyIP ="vip.worsen.eu.org";
 
-let dohURL = 'https://re.worsen.eu.org'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
+let dohURL = 'https://ad.worsen.eu.org'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables
 let nodeId = ''; // 1
